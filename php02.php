@@ -1,8 +1,12 @@
 <?php
 //1. $name にあなたの名前を代入し、 if文で $name があなたの名前だったら 「私は あなたの名前 です」、もし違ったら「あなたの名前ではありません」と表示するように実装してください。
 $name = 'Sota';
-if ( $name = 'Sota' ) {echo "私は Sota です";}
-else {"Sota ではありません";}
+if ( $name == 'Sota' ) {
+  echo '私は Sota です';
+}
+ else {
+  echo 'Sota ではありません';
+}
 
 //2. for文を使って、1から10000までの合計の値を表示してください。
 $total = 0;
@@ -16,7 +20,7 @@ foreach($fruits as $fruits){echo "要素は" . $fruits; echo "\n";}
 /* for文の始めの値を定義する*/
 $start = 1;
 /* for文の終わりの値を定義する */
-$end = 100;
+$end = 105;
 
 for($i = $start; $i < $end; $i++){
 
